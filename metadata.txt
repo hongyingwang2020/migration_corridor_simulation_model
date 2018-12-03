@@ -1,0 +1,48 @@
+
+HexSim migration.xml scenario was used to generate output files. 
+
+Model output files:
+Chinook-[Catch and Keep] Record Dying Fish Stastics-accumulators.csv
+Chinook-[Catch and Release] Record Dying Fish Stastics-accumulators.csv
+Chinook-[Impose Temperature-based Mortality] Record Dying Fish Stastics-accumulators.csv
+Chinook-[Record Accumulator Values] Condition at Terminus [ chinook ]-accumulators.csv
+Chinook-[Record Accumulator Values] Hourly Status Information [ chinook ]-accumulators.csv
+Chinook-[Record Accumulator Values] Post-Visit Refuge Data [ chinook ]-accumulators.csv
+Chinook-[Update Energy State [ chinook ]] Record Dying Fish Statistics-accumulators.csv
+Iterator-[Record Accumulator Values] Movement Iterators-accumulators.csv
+Refuges-[Record Accumulator Values] Refuge-Specific Data-accumulators.csv
+Steelhead-[Catch and Keep] Record Dying Fish Stastics-accumulators.csv
+Steelhead-[Catch and Release] Record Dying Fish Stastics-accumulators.csv
+Steelhead-[Impose Temperature-based Mortality] Record Dying Fish Stastics-accumulators.csv
+Steelhead-[Record Accumulator Values] Condition at Terminus [ steelhead ]-accumulators.csv
+Steelhead-[Record Accumulator Values] Hourly Status Information [ steelhead ]-accumulators.csv
+Steelhead-[Record Accumulator Values] Post-Visit Refuge Data [ steelhead ]-accumulators.csv
+Steelhead-[Update Energy State [ steelhead ]] Record Dying Fish Statistics-accumulators.csv
+Migration_speed_24.0.csv
+Migration_speed_24.1.csv
+Migration_speed_24.2.csv
+Migration_speed_24.3.csv
+Migration_speed_24.4.csv
+Migration_speed_24.5.csv
+Migration_speed_24.6.csv
+Migration_speed_24.7.csv
+Migration_speed_24.8.csv
+Migration_speed_24.9.csv
+Migration_speed_24.10.csv
+Migration_speed_24.11.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
