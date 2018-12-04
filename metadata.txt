@@ -2,34 +2,407 @@
 HexSim migration.xml scenario was used to generate output files. 
 
 Model output files:
-Chinook-[Catch and Keep] Record Dying Fish Stastics-accumulators.csv
-Chinook-[Catch and Release] Record Dying Fish Stastics-accumulators.csv
-Chinook-[Impose Temperature-based Mortality] Record Dying Fish Stastics-accumulators.csv
+Chinook-[Catch and Keep] Record Dying Fish Stastics-accumulators.csv - Recorded values for fish harvested and kept
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
+Chinook-[Catch and Release] Record Dying Fish Stastics-accumulators.csv - Recorded values for fish harvested and released
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
+Chinook-[Impose Temperature-based Mortality] Record Dying Fish Stastics-accumulators.csv - Records values for fish dying because of acute temperature exposure
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
 Chinook-[Record Accumulator Values] Condition at Terminus [ chinook ]-accumulators.csv
-Chinook-[Record Accumulator Values] Hourly Status Information [ chinook ]-accumulators.csv
-Chinook-[Record Accumulator Values] Post-Visit Refuge Data [ chinook ]-accumulators.csv
-Chinook-[Update Energy State [ chinook ]] Record Dying Fish Statistics-accumulators.csv
-Iterator-[Record Accumulator Values] Movement Iterators-accumulators.csv
-Refuges-[Record Accumulator Values] Refuge-Specific Data-accumulators.csv
-Steelhead-[Catch and Keep] Record Dying Fish Stastics-accumulators.csv
-Steelhead-[Catch and Release] Record Dying Fish Stastics-accumulators.csv
-Steelhead-[Impose Temperature-based Mortality] Record Dying Fish Stastics-accumulators.csv
-Steelhead-[Record Accumulator Values] Condition at Terminus [ steelhead ]-accumulators.csv
-Steelhead-[Record Accumulator Values] Hourly Status Information [ steelhead ]-accumulators.csv
-Steelhead-[Record Accumulator Values] Post-Visit Refuge Data [ steelhead ]-accumulators.csv
-Steelhead-[Update Energy State [ steelhead ]] Record Dying Fish Statistics-accumulators.csv
-Migration_speed_24.0.csv
-Migration_speed_24.1.csv
-Migration_speed_24.2.csv
-Migration_speed_24.3.csv
-Migration_speed_24.4.csv
-Migration_speed_24.5.csv
-Migration_speed_24.6.csv
-Migration_speed_24.7.csv
-Migration_speed_24.8.csv
-Migration_speed_24.9.csv
-Migration_speed_24.10.csv
-Migration_speed_24.11.csv
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Beginning weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+
+Chinook-[Record Accumulator Values] Hourly Status Information [ chinook ]-accumulators.csv - Records individual data hourly
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [ arrived at terminus ]: Model hour fish arrives at upstream end of study system
+River Kilometer: Where in the river the fish is located by river kilometer from the mouth (km)
+Fish Status [ motivation ]: Spawning urgency high or low
+Temperature [ at time 1 ]: Temperature exposure in last time step (Celsius)
+Temperature [ mean ]: Mean temperature of last three hours (Celsius)
+Fitness [ energy density ]: Weight dependence of total energy density (J/g)
+Fitness [ weight ]: Fish mass (g)
+Fitness [ energy ]: Weight dependence of available energy density (J/g)
+Fish Selector: Tracks if an individual has been selected
+Refuge Avoidance: Records if a fish was recently in a cold water refuge
+Hours in Cold Water [ episodic ]: Hours spent residing in a cold water refuge per visit
+Hours in Cold Water [ total ]: Total hours spent in all cold water refuges
+Trib and Plume ID [ post-movement ]: ID of cold water refuge after movement 
+
+Chinook-[Record Accumulator Values] Post-Visit Refuge Data [ chinook ]-accumulators.csv - Records data every time an individual leaves a cold water refuge
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Trib and Plume ID [ pre-movement ]: ID of cold water refuge before movement
+Hours in Cold Water [ episodic ]: Hours spent residing in a cold water refuge per visit (h)
+Hours in Cold Water [ total ]: Total hours spent in all cold water refuges (h)
+Initial Weight: Beginning weight (g)
+Fitness [ energy density ]: Weight dependence of total energy density (J/g)
+Energy Density [ used in refuge ] Energy density used during residence in cold water refuge (J/g)
+
+Chinook-[Update Energy State [ chinook ]] Record Dying Fish Statistics-accumulators.csv - Records fish characteristics for fish dying because of low energy
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
+Refuges-[Record Accumulator Values] Refuge-Specific Data-accumulators.csv - Values for each refuge every time step of model run
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Refuge ID
+Refuge ID: Refuge ID
+Refuge Depth [ chinook ]: Depth of refuge at individual's location. 
+Refuge Depth [ steelhead ]: Depth of refuge at individual's location.
+Effective Volume [ chinook ]: Effective volume calculated from depth at location and hexagon area.
+Effective Volume [ steelhead ]: Effective volume calculated from depth at location and hexagon area.
+Current Refuge Density: Calculated density of steelhead and chinook in CWR. 
+Fish to Retain [ chinook ]: Maximum number of chinook that can reside in the CWR at that time step.
+Fish to Retain [ steelhead ]: Maximum number of steelhead that can reside in the CWR at that time step.
+Fish Removed [ chinook ]: Chinook individuals leaving a cold water refuge because they are above maximum density
+Fish Removed [ steelhead ]: Steelhead individuals leaving a cold water refuge because they are above maximum density
+
+Iterator-[Record Accumulator Values] Movement Iterators-accumulators.csv - values recorded for iterator population
+Run: Model run
+Step: Model time step
+Population: Model Population
+ID: Iterator ID
+Refuge Iterator [ chinook ]: Number of times refuges iterate per time step for chinook
+Refuge Iterator [ steelhead ]: Number of times refuges iterate per time step for steelhead
+Downstream Iterator [ chinook ]: Number of times downstream movement iterates for chinook
+Downstream Iterator [ steelhead ]: Number of times downstream movement iterates for steelhead
+Upstream Iterator [ chinook ]: Number of times downstream movement iterates for chinook
+Upstream Iterator [ steelhead ]: Number of times downstream movement iterates for steelhead
+
+Steelhead-[Catch and Keep] Record Dying Fish Stastics-accumulators.csv - Recorded values for fish harvested and kept
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
+Steelhead-[Catch and Release] Record Dying Fish Stastics-accumulators.csv - Recorded values for fish harvested and released
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
+Steelhead-[Impose Temperature-based Mortality] Record Dying Fish Stastics-accumulators.csv - Records values for fish dying because of acute temperature exposure
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
+Steelhead-[Record Accumulator Values] Condition at Terminus [ chinook ]-accumulators.csv
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Beginning weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+
+Steelhead-[Record Accumulator Values] Hourly Status Information [ chinook ]-accumulators.csv - Records individual data hourly
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [ arrived at terminus ]: Model hour fish arrives at upstream end of study system
+River Kilometer: Where in the river the fish is located by river kilometer from the mouth (km)
+Fish Status [ motivation ]: Spawning urgency high or low
+Temperature [ at time 1 ]: Temperature exposure in last time step (Celsius)
+Temperature [ mean ]: Mean temperature of last three hours (Celsius)
+Fitness [ energy density ]: Weight dependence of total energy density (J/g)
+Fitness [ weight ]: Fish mass (g)
+Fitness [ energy ]: Weight dependence of available energy density (J/g)
+Fish Selector: Tracks if an individual has been selected
+Refuge Avoidance: Records if a fish was recently in a cold water refuge
+Hours in Cold Water [ episodic ]: Hours spent residing in a cold water refuge per visit
+Hours in Cold Water [ total ]: Total hours spent in all cold water refuges
+Trib and Plume ID [ post-movement ]: ID of cold water refuge after movement 
+
+Steelhead-[Record Accumulator Values] Post-Visit Refuge Data [ chinook ]-accumulators.csv - Records data every time an individual leaves a cold water refuge
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Trib and Plume ID [ pre-movement ]: ID of cold water refuge before movement
+Hours in Cold Water [ episodic ]: Hours spent residing in a cold water refuge per visit (h)
+Hours in Cold Water [ total ]: Total hours spent in all cold water refuges (h)
+Initial Weight: Beginning weight (g)
+Fitness [ energy density ]: Weight dependence of total energy density (J/g)
+Energy Density [ used in refuge ] Energy density used during residence in cold water refuge (J/g)
+
+Steelhead-[Update Energy State [ chinook ]] Record Dying Fish Statistics-accumulators.csv - Records fish characteristics for fish dying because of low energy
+Run: Model run
+Step: Model time step
+Population: Model population
+ID: Individual fish ID
+Time [entry]: Entry date to Bonneville Pool (h)
+Time [exit]: Estimated passage date over The Dalles Dam (h)
+Time [in system]: Tracks time migrating through system (h)
+Time [remaining]: Difference between date and estimated passage date over the Dalles Dam (h)
+Hours in Cold Water [total]: The total amount of time a fish spent in a cold water refuge (h)
+Intial Weight: Initial weight (g)
+Initial Energy Density: Starting energy density (J/g)
+Fitness [weight]: Fish mass (g)
+Fitness [energy density]: Weight dependence of total energy density (J/g)
+Fitness [energy]: Weight dependence of available energy density (J/g)
+Fitness [mass used in respiration]: Function for mass used in respiration (ratio)
+Fishing Pressure: Keeps track of fishing pressure applied (binary)
+Temperature [at time 1]: Temperature exposure in last time step (Celsius)
+Temperature [mean]: Mean temperature of last three hours (Celsius)
+
+Output files that record number of individual's with a given trait. All files start out with columns defined with "Run": Model run,"Time Step": Model time step,"Population Size": total number of individuals in population,"Group Members": number of individuals in group,"Floaters": number of floaters,"Lambda": lambda.
+
+Migration_speed_24.0.csv - Movement behavior - chinook
+Trait Index 0: Do Not Move
+Trait Index 1: Move Randomly
+Trait Index 2: Move to Cold Water
+Trait Index 3: Move Upstream
+Trait Index 4: Move Downstream
+
+Migration_speed_24.1.csv - Movement behavior - steelhead
+Trait Index 0: Do Not Move
+Trait Index 1: Move Randomly
+Trait Index 2: Move to Cold Water
+Trait Index 3: Move Upstream
+Trait Index 4: Move Downstream
+
+Migration_speed_24.2.csv - Movement status - chinook
+Trait Index 0: Waiting at Estuary
+Trait Index 1: Actively migrating
+Trait Index 2: Waiting at terminus
+
+Migration_speed_24.3.csv- Movement status - steelhead
+Trait Index 0: Waiting at Estuary
+Trait Index 1: Actively migrating
+Trait Index 2: Waiting at terminus
+
+Migration_speed_24.4.csv - Thermal status - chinook
+Trait Index 0: Below 16 degrees
+Trait Index 1: 16 degrees
+Trait Index 2: 17 degrees
+Trait Index 3: 18 degrees
+Trait Index 4: 19 degrees
+Trait Index 5: 20 degrees
+Trait Index 6: 21 degrees
+Trait Index 7: 22 degrees
+Trait Index 8: 23 degrees
+Trait Index 9: 24 degrees
+Trait Index 10: Above 25 degrees
+
+Migration_speed_24.5.csv- Thermal status - steelhead
+Trait Index 0: Below 16 degrees
+Trait Index 1: 16 degrees
+Trait Index 2: 17 degrees
+Trait Index 3: 18 degrees
+Trait Index 4: 19 degrees
+Trait Index 5: 20 degrees
+Trait Index 6: 21 degrees
+Trait Index 7: 22 degrees
+Trait Index 8: 23 degrees
+Trait Index 9: 24 degrees
+Trait Index 10: Above 25 degrees
+
+Migration_speed_24.6.csv - Refuge ID - chinook
+Trait Index 0: Not in a Refuge
+Trait Index 1: Eagle Creek
+Trait Index 2: Rock Creek
+Trait Index 3: Herman Creek
+Trait Index 4: Wind River
+Trait Index 5: Little White Salmon
+Trait Index 6: White Salmon
+Trait Index 7: Klickitat River
+
+Migration_speed_24.7.csv- Refuge ID - steelhead
+Trait Index 0: Not in a Refuge
+Trait Index 1: Eagle Creek
+Trait Index 2: Rock Creek
+Trait Index 3: Herman Creek
+Trait Index 4: Wind River
+Trait Index 5: Little White Salmon
+Trait Index 6: White Salmon
+Trait Index 7: Klickitat River
+
+Migration_speed_24.8.csv - Tributary and plume ID - chinook
+Trait Index 0: Not in a refuge
+Trait Index 1: Eagle Creek
+Trait Index 2: Eagle Creek plume
+Trait Index 3: Rock Creek
+Trait Index 4: Rock Creek plume
+Trait Index 5: Herman Creek
+Trait Index 6: Herman Creek plume
+Trait Index 7: Wind River
+Trait Index 8: Wind River plume
+Trait Index 9: Little White Salmon
+Trait Index 10: Little White Salmon plume
+Trait Index 11: White Salmon
+Trait Index 12: White Salmon plume
+Trait Index 13: Klickitat River
+Trait Index 14: Klickitat plume
+
+Migration_speed_24.9.csv - Tributary and plume ID - steelhead
+Trait Index 0: Not in a refuge
+Trait Index 1: Eagle Creek
+Trait Index 2: Eagle Creek plume
+Trait Index 3: Rock Creek
+Trait Index 4: Rock Creek plume
+Trait Index 5: Herman Creek
+Trait Index 6: Herman Creek plume
+Trait Index 7: Wind River
+Trait Index 8: Wind River plume
+Trait Index 9: Little White Salmon
+Trait Index 10: Little White Salmon plume
+Trait Index 11: White Salmon
+Trait Index 12: White Salmon plume
+Trait Index 13: Klickitat River
+Trait Index 14: Klickitat plume
+
+Migration_speed_24.10.csv - fish harvested and released - chinook
+Trait Index 0: Was not caught
+Trait Index 1: Caught and released
+
+Migration_speed_24.11.csv- fish harvested and released - steelhead
+Trait Index 0: Was not caught
+Trait Index 1: Caught and released
 
 
 
