@@ -292,31 +292,31 @@ Temperature [mean]: Mean temperature of last three hours (Celsius)
 
 Output files that record number of individual's with a given trait. All files start out with columns defined with "Run": Model run,"Time Step": Model time step,"Population Size": total number of individuals in population,"Group Members": number of individuals in group,"Floaters": number of floaters,"Lambda": lambda.
 
-Migration_speed_24.0.csv - Movement behavior - chinook
+Migration_speed_23.0.csv - Movement behavior - chinook
 Trait Index 0: Do Not Move
 Trait Index 1: Move Randomly
 Trait Index 2: Move to Cold Water
 Trait Index 3: Move Upstream
 Trait Index 4: Move Downstream
 
-Migration_speed_24.1.csv - Movement behavior - steelhead
+Migration_speed_23.1.csv - Movement behavior - steelhead
 Trait Index 0: Do Not Move
 Trait Index 1: Move Randomly
 Trait Index 2: Move to Cold Water
 Trait Index 3: Move Upstream
 Trait Index 4: Move Downstream
 
-Migration_speed_24.2.csv - Movement status - chinook
+Migration_speed_23.2.csv - Movement status - chinook
 Trait Index 0: Waiting at Estuary
 Trait Index 1: Actively migrating
 Trait Index 2: Waiting at terminus
 
-Migration_speed_24.3.csv- Movement status - steelhead
+Migration_speed_23.3.csv- Movement status - steelhead
 Trait Index 0: Waiting at Estuary
 Trait Index 1: Actively migrating
 Trait Index 2: Waiting at terminus
 
-Migration_speed_24.4.csv - Thermal status - chinook
+Migration_speed_23.4.csv - Thermal status - chinook
 Trait Index 0: Below 16 degrees
 Trait Index 1: 16 degrees
 Trait Index 2: 17 degrees
@@ -329,7 +329,7 @@ Trait Index 8: 23 degrees
 Trait Index 9: 24 degrees
 Trait Index 10: Above 25 degrees
 
-Migration_speed_24.5.csv- Thermal status - steelhead
+Migration_speed_23.5.csv- Thermal status - steelhead
 Trait Index 0: Below 16 degrees
 Trait Index 1: 16 degrees
 Trait Index 2: 17 degrees
@@ -339,10 +339,10 @@ Trait Index 5: 20 degrees
 Trait Index 6: 21 degrees
 Trait Index 7: 22 degrees
 Trait Index 8: 23 degrees
-Trait Index 9: 24 degrees
+Trait Index 9: 23 degrees
 Trait Index 10: Above 25 degrees
 
-Migration_speed_24.6.csv - Refuge ID - chinook
+Migration_speed_23.6.csv - Refuge ID - chinook
 Trait Index 0: Not in a Refuge
 Trait Index 1: Eagle Creek
 Trait Index 2: Rock Creek
@@ -352,7 +352,7 @@ Trait Index 5: Little White Salmon
 Trait Index 6: White Salmon
 Trait Index 7: Klickitat River
 
-Migration_speed_24.7.csv- Refuge ID - steelhead
+Migration_speed_23.7.csv- Refuge ID - steelhead
 Trait Index 0: Not in a Refuge
 Trait Index 1: Eagle Creek
 Trait Index 2: Rock Creek
@@ -362,7 +362,7 @@ Trait Index 5: Little White Salmon
 Trait Index 6: White Salmon
 Trait Index 7: Klickitat River
 
-Migration_speed_24.8.csv - Tributary and plume ID - chinook
+Migration_speed_23.8.csv - Tributary and plume ID - chinook
 Trait Index 0: Not in a refuge
 Trait Index 1: Eagle Creek
 Trait Index 2: Eagle Creek plume
@@ -379,7 +379,7 @@ Trait Index 12: White Salmon plume
 Trait Index 13: Klickitat River
 Trait Index 14: Klickitat plume
 
-Migration_speed_24.9.csv - Tributary and plume ID - steelhead
+Migration_speed_23.9.csv - Tributary and plume ID - steelhead
 Trait Index 0: Not in a refuge
 Trait Index 1: Eagle Creek
 Trait Index 2: Eagle Creek plume
@@ -396,11 +396,11 @@ Trait Index 12: White Salmon plume
 Trait Index 13: Klickitat River
 Trait Index 14: Klickitat plume
 
-Migration_speed_24.10.csv - fish harvested and released - chinook
+Migration_speed_23.10.csv - fish harvested and released - chinook
 Trait Index 0: Was not caught
 Trait Index 1: Caught and released
 
-Migration_speed_24.11.csv- fish harvested and released - steelhead
+Migration_speed_23.11.csv- fish harvested and released - steelhead
 Trait Index 0: Was not caught
 Trait Index 1: Caught and released
 
